@@ -1,0 +1,14 @@
+# Multi-Agent RAG System Dependencies
+
+# Core
+openai>=1.12.0          # OpenAI API
+numpy>=1.24.0           # Numerical operations  
+faiss-cpu>=1.7.4        # Vector search
+
+# Dataset
+datasets>=2.16.0        # HuggingFace datasets
+
+# Utilities
+python-dotenv>=1.0.0    # Environment variables
+black>=23.3.0            # Code formatting
+isort>=5.12.0           # Import sorting
