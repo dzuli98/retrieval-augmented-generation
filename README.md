@@ -121,7 +121,7 @@ Claims are weighted by source reliability based on RAMDocs labels:
 
 | Metric | Description |
 |--------|-------------|
-| **Accuracy** | Fraction matching any gold answer (fuzzy, F1 ≥ 0.8) |
+| **Accuracy** | Fraction matching any gold answer |
 | **Exact Match (EM)** | Strict string equality after normalization |
 | **F1 Score** | Token-level overlap with best gold answer |
 | **Misinformation Rate** | Fraction matching known wrong answers (lower is better!) |
