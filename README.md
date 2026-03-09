@@ -114,11 +114,10 @@ Claims are weighted by source reliability based on RAMDocs labels:
 - ✅ **Metadata handling**: Source types (correct/misinfo/noise) used in scoring
 - ✅ **Answer generation**: Human-readable output with evidence and explanation
 - ✅ **Traceability**: Full execution trace + Python logging
-- ✅ **Evaluation**: Standard QA metrics (Accuracy, EM, F1, Misinformation Rate)
+- ✅ **Evaluation**: Accuracy, EM, F1, Misinformation Rate
 
 ## Evaluation Metrics
 
-The evaluation uses standard QA metrics following SQuAD evaluation:
 
 | Metric | Description |
 |--------|-------------|

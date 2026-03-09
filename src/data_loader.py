@@ -40,7 +40,7 @@ class RAMDocsLoader:
                 doc = Document(
                     doc_id=f"q{self.questions_data.index(item)}_d{i}",
                     content=doc_data.get("text", ""),
-                    label=doc_data.get("type", "unknown"),  # RAMDocs uses 'type' field
+                    label=doc_data.get("type", "unknown"),
                 )
                 documents.append(doc)
 

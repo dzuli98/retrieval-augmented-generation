@@ -45,7 +45,7 @@ class FinalAnswer:
     supporting_docs: List[Dict[str, Any]]
     rejected_docs: List[Dict[str, Any]]
     reconciliation_explanation: str
-    trace: List[str]  # Log of steps taken
+    trace: List[str]
 
     def to_readable(self) -> str:
         lines = [
